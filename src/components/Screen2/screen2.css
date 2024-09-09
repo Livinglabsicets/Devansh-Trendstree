@@ -1,0 +1,22 @@
+.home {
+  background-image: url('../../Asserts/Star\ group.png');
+  
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+ 
+.go-button {
+  background:transparent;
+  color: white;
+  /* border-radius: 5px;
+  padding: 10px 20px; */
+  cursor: pointer;
+  /* border: 1px solid #ccc; */
+  font-size: 16px;
+  margin-top: 7%;
+  margin-left: 42%;
+}

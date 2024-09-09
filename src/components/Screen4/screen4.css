@@ -1,0 +1,177 @@
+.home{
+    
+    background-image: url('../../Asserts/Page-5-background.png');
+  }
+  
+  .sun{
+    
+    width: 10%;
+    height: 100%;
+    
+  }
+  .sun-video{
+    
+    margin-bottom: 15%;
+    height: 500px;
+    width: 700px;
+    margin-left: -190%; 
+    margin-top: 130px;
+   
+  }
+  
+  
+  .map{
+    /* background-color: red; */
+    width: 43%;
+    height: 100%;
+    
+  }
+  .insuranceMap{
+    background-image: url('../../Asserts/page-5-map1.png');
+    margin-top: 40%;
+    height: 600px;
+    margin-left: 5%;
+    margin-right: 5%;
+    background-repeat: no-repeat;
+  }
+  
+  /* .goToBack{
+    
+    background-color: none;
+    width: 10px;
+    height: 10px;
+    margin-right: 10%; 
+    margin-top: 5%;
+    margin-left: 10%;
+  
+  } */
+  .imageClass{
+    display: flex;
+    width: 16px;
+    height: 16px;
+    margin-top: 80px;
+    cursor: pointer;
+  }
+  
+  .planet-moons {
+    background-color: none;
+    display: flex;
+    /* background: transparent; */
+    width: 43%;
+    height: 100%;
+    
+  
+    
+  }
+  .planet{
+    /* background-color: red; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    align-items: flex-start; /* Align items to the left */
+  
+  }
+  .moons{
+    /* background-color: yellow; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    align-items: flex-start; /* Align items to the left */
+  
+  }
+  
+  .planet1, .planet2, .planet3, .planet4, .planet5 {
+    width: 100px; /* Adjust the width as needed */
+    height: 100px; /* Adjust the height as needed */
+    cursor: pointer;
+    object-fit: cover;
+  }
+  .planet3{
+    width: 150px;
+    height: 150px;
+  }
+  .planet3.clicked {
+    /* Styles to apply when clicked */
+    width: 150px;
+    height: 150px;
+    /* Add other desired styles */
+  }
+  .planet3-full-name{
+    display: flex;
+    flex-direction: column;
+  }
+  .planet1-name, .planet2-name, .planet3-name, .planet4-name, .planet5-name {
+    display: flex;
+    font-size: 12px;
+    cursor: pointer;
+    margin-top: -5px;
+  }
+  .planet3-name{
+    margin-top: 50px;
+  }
+  .planet3-sub-name{
+    margin-top: 0px;
+    font-size: 12px;
+  }
+  .planet1-class{
+    margin-top: 60px;
+    margin-left: -20px;
+  }
+  .planet2-class, .planet3-class, .planet4-class, .planet5-class{
+    margin-top: 75px;
+  }
+  .planet2-class{
+    
+    margin-left: 60px;
+  }
+  .planet3-class{
+    
+    margin-left: 92px;
+  }
+  .planet4-class{
+    
+    margin-left: 48px;
+  }
+  .planet5-class{
+    
+    margin-left: 10px;
+  }
+  .planet3-class{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .moon1-class{
+    margin-top: 340px;
+  }
+  .moon1, .moon2, .moon3, .moon4 {
+    width: 100px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    cursor: pointer;
+  }
+  .moon-name{
+    font-size: 12px;
+    display: flex;
+    flex-direction: column; /* Arrange items vertically */
+    align-items: flex-start; /* Align items to the left */
+    margin-left: -15%;
+  }
+  /* .moon1-class, .moon2-class, .moon3-class, .moon4-class */
+  .moon1-class
+  {
+    display: flex;
+    flex-direction: row;
+  }
+  .moon2-class, .moon3-class, .moon4-class
+  {
+    display: flex;
+    flex-direction: row;
+    opacity: 0.2;
+    margin-top: 20px;
+  }
+  .moon-name-last{
+    margin-top: -6%;
+  
+  }
